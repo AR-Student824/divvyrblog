@@ -1,0 +1,19 @@
+{
+  "name": "replerblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^10.2.3",
+    "nextra": "^0.4.5",
+    "nextra-theme-blog": "^0.1.6",
+    "rss": "^1.2.2"
+  }
+}

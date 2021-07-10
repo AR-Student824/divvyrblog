@@ -8,8 +8,7 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
-	color: black !important;
-	background-color: white;
+	background-color: #383a59;
 }
 b,
 strong,
@@ -43,9 +42,9 @@ img.next-image {
 }
 
 .prose a {
-  color: #0074de;
+  color: #bd93f9;
 }
 
 .nav-line .nav-link {
-  color: #69778c;
+  color: #48d76f;
 }

@@ -12,7 +12,7 @@ Metadata information is used on almost all social media websites as a way to get
 ## Method 1 (Easiest): Use a meta grabber API
 This method is pretty simple. All you have to do is send a request to an API and get the meta data information of the website as JSON.
 Here's how to do this using TotallyUsefulAPI's meta grabber:
-```js
+```
 import { get } from 'axios';
 // Import the Axios module (or node-fetch, depends on you)
 get('https://totallyusefulapi.ml/api/meta?url=https://www.google.com').then(res => {
@@ -31,7 +31,7 @@ get('https://totallyusefulapi.ml/api/meta?url=https://www.google.com').then(res 
 RemiixInc explains this pretty well on [this](https://dev.to/remiix/getting-website-meta-tags-with-node-js-1li5) post on his blog, but I'll explain it simply.
 You can a JavaScript module named "Cheerio" which turns HTML elements into JSON, and you can find the meta tags using it.
 Here's an example:
-```js
+```
 import { load } from 'cheerio';
 // Import cheerio
 import { get } from 'axios';

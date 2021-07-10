@@ -29,7 +29,7 @@ get('https://totallyusefulapi.ml/api/meta?url=https://www.google.com').then(res 
 
 ## Method 2: Use Cheerio
 RemiixInc explains this pretty well on [this](https://dev.to/remiix/getting-website-meta-tags-with-node-js-1li5) post on his blog, but I'll explain it simply.
-You can a JavaScript module named "Cheerio" which turns HTML elements into JSON, and you can find the meta tags using it.
+You can use a JavaScript module named "Cheerio" which turns HTML elements into JSON, and you can find the meta tags using it.
 Here's an example:
 ```
 import { load } from 'cheerio';
